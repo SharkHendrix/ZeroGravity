@@ -8,9 +8,9 @@ import lombok.experimental.UtilityClass;
 @UtilityClass
 public class Util {
 
-	private static NumberFormat numberFormat = new DecimalFormat("#0.00");
+    private static NumberFormat numberFormat = new DecimalFormat("#0.00");
 
-	public static String format(double d) {
-		return numberFormat.format(d);
-	}
+    public static String format(double d) {
+        return numberFormat.format(d);
+    }
 }
