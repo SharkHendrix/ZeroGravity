@@ -23,5 +23,4 @@ public class MapSerializer extends Serializer<Map> {
         output.writeInt(map.getHeight());
         kryo.writeObject(output, map.toByteArray());
     }
-
 }

@@ -1,6 +1,8 @@
 package fr.sharkhendrix.zerogravity.common.engine;
 
-import fr.sharkhendrix.zerogravity.common.vehicle.Vehicle;
+import org.dyn4j.geometry.Vector2;
+
+import fr.sharkhendrix.zerogravity.common.data.Vehicle;
 
 public class VehicleEntity {
 

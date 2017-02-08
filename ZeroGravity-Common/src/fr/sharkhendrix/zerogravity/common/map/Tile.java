@@ -28,6 +28,14 @@ public class Tile {
         return instances[material.getId() * Direction.values().length + direction.getId()];
     }
 
+    public static int getCount() {
+        return (Material.values().length * Direction.values().length);
+    }
+
+    public static Tile get(Material material) {
+        return get(material, Direction.RIGHT);
+    }
+
     public static Tile get(int id) {
         return instances[id];
     }

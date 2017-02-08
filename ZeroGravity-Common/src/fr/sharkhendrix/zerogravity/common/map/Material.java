@@ -3,13 +3,13 @@ package fr.sharkhendrix.zerogravity.common.map;
 import lombok.Getter;
 
 public enum Material {
+    VOID,
     GROUND,
     WALL,
+    WALL_CORNER,
     LAP_LINE,
     REPAIRING_GROUND,
-    SPEED_BOOSTER,
-    WEAPON_DISPENSER,
-    CHECKPOINT;
+    WEAPON_DISPENSER;
 
     @Getter
     private int id;
